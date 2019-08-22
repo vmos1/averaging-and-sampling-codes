@@ -1,0 +1,10 @@
+
+pyinstaller --onefile mean.py
+
+
+#Jan26 2017
+
+Issue while using pyinstaller: 'The 'six' package is required' ....
+
+Fix: downgrade setuptools  for python
+: conda install setuptools=19.2
